@@ -1,15 +1,22 @@
-export default tokens = [
+export const  tokens  = [
   {
-    BSC_RPC : "https://data-seed-prebsc-1-s1.binance.org:8545",
-    LOGO : "https://bscscan.com/images/logo-bscscan.svg?v=0.0.3",
-    CHAIN_ID : 97,
-    SYMBOL : "tBNB"
+    ID: 1,
+    TITLE : "ERC20 STANDARD TOKEN",
+    LOGO : "https://cryptologos.cc/logos/stacks-stx-logo.png?v=024",
+    DESCRIPTION : "ERC-20 is the technical standard for fungible tokens created using the Ethereum blockchain."
   },
   {
-    CIC_RPC : "https://testapi.cicscan.com",
-    LOGO : "https://testnet.cicscan.com/images/TokenLogo.png",
-    CHAIN_ID : 1252,
-    SYMBOL : "CICT"
+    ID: 2,
+    TITLE : "BABY TOKEN",
+    LOGO : "https://cryptologos.cc/logos/monacoin-mona-logo.png?v=024",
+    DESCRIPTION : "Crypto tokens are digital assets that are built on top of an existing blockchain."
   },
 
+  {
+    ID: 3,
+    TITLE : "OTHER TOKENS",
+    LOGO : "https://cryptologos.cc/logos/zb-token-zb-logo.svg?v=024",
+    DESCRIPTION : "Crypto tokens are digital assets that are built on top of an existing blockchain."
+  },
+  
 ]
