@@ -14,16 +14,21 @@
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@heroicons/react": "^2.0.17",
+    "@material-tailwind/react": "^1.4.2",
     "@types/node": "18.15.6",
     "@types/react": "18.0.28",
     "@types/react-dom": "18.0.11",
+    "@walletconnect/web3-provider": "^1.8.0",
     "dotenv": "^16.0.3",
     "eslint": "8.36.0",
     "eslint-config-next": "13.2.4",
     "next": "13.2.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "typescript": "5.0.2"
+    "react-toastify": "^9.1.2",
+    "typescript": "5.0.2",
+    "web3": "^1.9.0",
+    "web3modal": "^1.9.12"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",

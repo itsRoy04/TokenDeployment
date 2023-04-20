@@ -5,6 +5,7 @@ import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 
+import ConnectWallet from "@/components/ConnectWalletButton";
 function Nav() {
   //   const cart = useCartContext()[0]
   const [cartItems, setCartItems] = useState(0);
@@ -31,6 +32,9 @@ function Nav() {
           </h1>
           {/* </a> */}
         </Link>
+        <div>
+        <ConnectWallet/>
+        </div>
         <div>
           <Link href="/cart" passHref>
               <img alt="Logo" className=" w-12 mr-1" src="/img/drop.png" />

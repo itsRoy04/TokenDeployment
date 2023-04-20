@@ -14,7 +14,6 @@ function Layout({ children }) {
         <main>
           {children}
         </main>
-TokenListing
         {/* <Footer /> */}
       </div>
     {/* </CartProvider> */}
